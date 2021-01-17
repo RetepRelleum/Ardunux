@@ -26,3 +26,6 @@ void randomSeed(unsigned long);
 long map(long, long, long, long, long);
 
 #endif // ARDUINO_H_INCLUDED
+
+void setup(void);
+void loop(void);
