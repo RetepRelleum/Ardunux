@@ -2,19 +2,16 @@
 
 #include <Arduino.h>
 
-
-
 int main(void)
 {
 
 	
 	setup();
     
-	for (;;) {
+	while (true) {
 		loop();
 
-	}
-        
+	} 
 	return 0;
 }
 
