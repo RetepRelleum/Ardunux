@@ -29,3 +29,7 @@ long map(long, long, long, long, long);
 
 void setup(void);
 void loop(void);
+uint16_t makeWord(uint16_t w);
+uint16_t makeWord(byte h, byte l);
+
+#define word(...) makeWord(__VA_ARGS__)
