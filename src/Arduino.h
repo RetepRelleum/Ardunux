@@ -12,6 +12,7 @@ const double PI = 3.141592653589793238460;
 const int A1 = 1;
 
 int analogRead(int in);
+int digitalRead(int in);
 
 void analogReadResolution(int a);
 

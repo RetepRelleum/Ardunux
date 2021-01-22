@@ -11,3 +11,6 @@ int analogRead(int in)
 void analogReadResolution(int a){
     
 }
+int digitalRead(int in){
+    return 0;
+}
