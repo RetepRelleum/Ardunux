@@ -13,6 +13,7 @@ const int A1 = 1;
 
 int analogRead(int in);
 int digitalRead(int in);
+int touchRead(int in);
 
 void analogReadResolution(int a);
 
